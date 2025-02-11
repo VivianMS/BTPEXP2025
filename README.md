@@ -47,6 +47,9 @@ curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/R
 
  
 
+### STEP 6
+
+
 <b>Informações para Police</b>
 
 <b>Client ID:</b> sb-b0fe245d-8735-407d-8adc-07c7b067feac!b262215|sap-graph!b79797
