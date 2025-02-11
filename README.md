@@ -43,7 +43,7 @@ curl -X POST https://sap-btp-experience-is-shared-instances-ag2uetcp.authenticat
 
 Requisitando seu Proxy
 
-curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/RatedPartner?$top=1 -H "Authorization: Bearer <TOKEN>"
+curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/RatedPartner?$top=1 -H "Authorization: Bearer < TOKEN >"
 
  
 
