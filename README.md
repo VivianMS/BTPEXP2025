@@ -27,9 +27,33 @@ Login: intelligenzait_X@sap.com (sendo X, número de 1 a 40)
 
 Senha: @Welcome01
 
-### Link para acessar o Integration Suite:
+### STEP 3 - Exemplos:
 
-https://sap-btp-experience-is-shared-instances-ag2uetcp.integrationsuite.cfapps.us10-002.hana.ondemand.com/shell/home
+/bestrun/RatedPartner?$top=10&$expand=location&$select=name,rating
+
+/bestrun/RatedPartner?$top=30&$filter=rating/Moodys eq 'AAB'
+
+### STEP 5:
+
+Token
+
+curl -X POST https://sap-btp-experience-is-shared-instances-ag2uetcp.authentication.us10.hana.ondemand.com/oauth/token -H "Content-Type:application/x-www-form-urlencoded" -d "grant_type=client_credentials" -d "client_id=sb-b0fe245d-8735-407d-8adc-07c7b067feac!b262215|sap-graph!b79797" -d "client_secret=d396f1a4-be0b-40a3-98cd-fcf797253de8$lwBTl2jy3gbwaAiEcGNtpVHBaugQ7Zp5KY0njcYG2pU="
+
+ 
+
+Requisitando seu Proxy
+
+curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/RatedPartner?$top=1 -H "Authorization: Bearer <Token>"
+
+ 
+
+Informações para Police
+
+Client ID: sb-b0fe245d-8735-407d-8adc-07c7b067feac!b262215|sap-graph!b79797
+
+Client Secret: d396f1a4-be0b-40a3-98cd-fcf797253de8$lwBTl2jy3gbwaAiEcGNtpVHBaugQ7Zp5KY0njcYG2pU=
+
+URL: https://sap-btp-experience-is-shared-instances-ag2uetcp.authentication.us10.hana.ondemand.com/oauth/token
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
