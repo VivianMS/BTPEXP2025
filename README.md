@@ -68,7 +68,8 @@ curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/R
 
 <footer>
 
-### Link do exercício:
+
+<b>Link do exercício:</b>
 
 https://github.com/SAP-samples/teched2023-IN267/blob/main/exercise/README.md
 <!--
