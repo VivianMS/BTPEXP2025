@@ -58,6 +58,13 @@ curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/R
 
 <b>URL:</b> https://sap-btp-experience-is-shared-instances-ag2uetcp.authentication.us10.hana.ondemand.com/oauth/token
 
+
+
+
+
+<b>Link do exercício:</b>
+
+https://github.com/SAP-samples/teched2023-IN267/blob/main/exercise/README.md
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
   template_owner: 'skills',
@@ -73,9 +80,6 @@ curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/R
 
 <footer>
 
-<b>Link do exercício:</b>
-
-https://github.com/SAP-samples/teched2023-IN267/blob/main/exercise/README.md
 <!--
   <<< Author notes: Footer >>>
   Add a link to get support, GitHub status page, code of conduct, license link.
