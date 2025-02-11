@@ -23,8 +23,8 @@
 
 https://sap-btp-experience-is-shared-instances-ag2uetcp.integrationsuite.cfapps.us10-002.hana.ondemand.com/shell/home
 
-Login: 
-Senha: 
+Login: intelligenzait_X@sap.com (sendo X, número de 1 a 40)
+Senha: @Welcome01
 
 ### Link para acessar o Integration Suite:
 
