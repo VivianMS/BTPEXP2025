@@ -41,19 +41,19 @@ curl -X POST https://sap-btp-experience-is-shared-instances-ag2uetcp.authenticat
 
  
 
-Requisitando seu Proxy
+<b>Requisitando seu Proxy</b>
 
 curl -X GET https://u311.test.apimanagement.us10.hana.ondemand.com/<SEU_PROXY>/RatedPartner?$top=1 -H "Authorization: Bearer <TOKEN >"
 
  
 
-Informações para Police
+<b>Informações para Police</b>
 
-Client ID: sb-b0fe245d-8735-407d-8adc-07c7b067feac!b262215|sap-graph!b79797
+<b>Client ID:</b> sb-b0fe245d-8735-407d-8adc-07c7b067feac!b262215|sap-graph!b79797
 
-Client Secret: d396f1a4-be0b-40a3-98cd-fcf797253de8$lwBTl2jy3gbwaAiEcGNtpVHBaugQ7Zp5KY0njcYG2pU=
+<b>Client Secret:</b> d396f1a4-be0b-40a3-98cd-fcf797253de8$lwBTl2jy3gbwaAiEcGNtpVHBaugQ7Zp5KY0njcYG2pU=
 
-URL: https://sap-btp-experience-is-shared-instances-ag2uetcp.authentication.us10.hana.ondemand.com/oauth/token
+<b>URL:</b> https://sap-btp-experience-is-shared-instances-ag2uetcp.authentication.us10.hana.ondemand.com/oauth/token
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
